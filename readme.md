@@ -1,16 +1,7 @@
----
-title: DBMS课设 --物业信息管理
-categories: 
-- 数据库
-typora-root-url: ..\..
-
----
-
 Property Information Management（prop_info）
 
-作业时间2022.8.14-2022.9.1，大概17天
 
-<!--more-->
+作业时间2022.8.14-2022.9.1，大概17天
 
 ## DBMS课设 --物业信息管理
 
@@ -42,13 +33,13 @@ Property Information Management（prop_info）
 
 定位为供物业工作人员使用的信息管理系统，功能分为四大模块
 
-![功能模块](/DBMS/prop_info/readme/功能模块.png)
+![功能模块](readme/功能模块.png)
 
 
 
 具体功能通过用例图来展示
 
-![用例图](/DBMS/prop_info/readme/用例图.png)
+![用例图](readme/用例图.png)
 
 
 
@@ -86,31 +77,31 @@ Property Information Management（prop_info）
 
 房屋信息
 
-![房屋信息](/DBMS/prop_info/readme/房屋信息.png)
+![房屋信息](readme/房屋信息.png)
 
 房屋-查看业主
 
-![房屋-查看业主](/DBMS/prop_info/readme/房屋-查看业主.png)
+![房屋-查看业主](readme/房屋-查看业主.png)
 
 房屋编辑&新增
 
-![房屋编辑&新增](/DBMS/prop_info/readme/房屋编辑&新增.png)
+![房屋编辑&新增](readme/房屋编辑&新增.png)
 
 ### 车位管理
 
 车位信息
 
-![车位信息](/DBMS/prop_info/readme/车位信息.png)
+![车位信息](readme/车位信息.png)
 
 车位-查看业主
 
-![车位-查看信息](/DBMS/prop_info/readme/车位-查看信息.png)
+![车位-查看信息](readme/车位-查看信息.png)
 
 
 
 车位-编辑&新增
 
-![车位编辑&新增](/DBMS/prop_info/readme/车位编辑&新增.png)
+![车位编辑&新增](readme/车位编辑&新增.png)
 
 
 
@@ -120,39 +111,39 @@ Property Information Management（prop_info）
 
 业主信息
 
-![业主信息](/DBMS/prop_info/readme/业主信息.png)
+![业主信息](readme/业主信息.png)
 
 业主-房产车位
 
-![业主-房产车位](/DBMS/prop_info/readme/业主-房产车位.png)
+![业主-房产车位](readme/业主-房产车位.png)
 
-业主-缴费![业主-缴费](/DBMS/prop_info/readme/业主-缴费.png)
+业主-缴费![业主-缴费](readme/业主-缴费.png)
 
 业主-房产车位
 
-![业主-房产车位](/DBMS/prop_info/readme/业主-房产车位.png)
+![业主-房产车位](readme/业主-房产车位.png)
 
 ### 物业账单
 
-物业账单![物业账单](/DBMS/prop_info/readme/物业账单.png)
+物业账单![物业账单](readme/物业账单.png)
 
 物业账单-年与季筛选
 
-![物业账单-年与季筛选](/DBMS/prop_info/readme/物业账单-年与季筛选.png)
+![物业账单-年与季筛选](readme/物业账单-年与季筛选.png)
 
 
 
-物业账单-月筛选![物业账单-月筛选](/DBMS/prop_info/readme/物业账单-月筛选.png)
+物业账单-月筛选![物业账单-月筛选](readme/物业账单-月筛选.png)
 
 
 
 报表-折线
 
-![报表-折线](/DBMS/prop_info/readme/报表-折线.png)
+![报表-折线](readme/报表-折线.png)
 
 报表-饼
 
-![报表-饼](/DBMS/prop_info/readme/echart-pie.png)
+![报表-饼](readme/echart-pie.png)
 
 
 
@@ -654,7 +645,7 @@ MySQL -uxxx -pyyy  #xxx和yyyy分别是用户名和密码
 
 #### ER图
 
-![物业管理系统ER图全属性](/DBMS/prop_info/readme/物业管理系统ER图全属性.png)
+![物业管理系统ER图全属性](readme/物业管理系统ER图全属性.png)
 
 #### 业主表owner
 
