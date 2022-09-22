@@ -1,0 +1,8 @@
+{
+  "name": "prop_serve",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "echarts": "^5.3.3"
+  }
+}

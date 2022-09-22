@@ -1,0 +1,17 @@
+#  数据库连接配置文件
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/prop_info?useUnicode=true&characterEncoding=UTF-8&useSSL=false &serverTimezone=Asia/Shanghai #注意时区设置
+    username: root
+    password: root
+
+mybatis-plus:
+  check-config-location: true    #
+  mapper-locations: classpath:mapper/*.xml #mapper位置
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰命名
+    type-aliases-package: com.prop_serve.entity #实体类位置
